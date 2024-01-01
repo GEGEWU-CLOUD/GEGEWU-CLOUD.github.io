@@ -183,7 +183,7 @@
 
 <h3 id="三-效果"><a href="#三-效果" class="headerlink" title="三.  效果"></a>三.  效果</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/2023/05/22/rsync%E7%83%AD%E5%90%8C%E6%AD%A5%E7%A3%81%E7%9B%98/image-20230522140846926.png" alt="image-20230522140846926"></p>
 <p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/2023/05/22/rsync%E7%83%AD%E5%90%8C%E6%AD%A5%E7%A3%81%E7%9B%98/image-20230522140900255.png" alt="image-20230522140900255"></p>
-<h3 id="四-参数信息"><a href="#四-参数信息" class="headerlink" title="四.  参数信息"></a>四.  参数信息</h3><p>客户端同步<br>rsync -参数 用户名@同步服务器的IP::rsyncd.conf中那个方括号里的内容 本地存放路径 如:<br>rsync -avzP <a href="mailto:&#110;&#x65;&#x6d;&#x6f;&#x40;&#x31;&#x39;&#x32;&#x2e;&#49;&#x36;&#x38;&#x2e;&#49;&#48;&#x2e;&#49;">&#110;&#x65;&#x6d;&#x6f;&#x40;&#x31;&#x39;&#x32;&#x2e;&#49;&#x36;&#x38;&#x2e;&#49;&#48;&#x2e;&#49;</a>::nemo /backup</p>
+<h3 id="四-参数信息"><a href="#四-参数信息" class="headerlink" title="四.  参数信息"></a>四.  参数信息</h3><p>客户端同步<br>rsync -参数 用户名@同步服务器的IP::rsyncd.conf中那个方括号里的内容 本地存放路径 如:<br>rsync -avzP <a href="mailto:&#x6e;&#x65;&#109;&#x6f;&#64;&#x31;&#x39;&#x32;&#x2e;&#49;&#x36;&#x38;&#x2e;&#49;&#x30;&#x2e;&#x31;">&#x6e;&#x65;&#109;&#x6f;&#64;&#x31;&#x39;&#x32;&#x2e;&#49;&#x36;&#x38;&#x2e;&#49;&#x30;&#x2e;&#x31;</a>::nemo /backup</p>
 <p><strong>说明</strong></p>
 <ul>
 <li><code>-a </code>参数，相当于<code>-rlptgoD，-r </code>是递归<code>-l</code>是链接文件，意思是拷贝链接文件；<code>-p</code> 表示保持文件原有权限；<code>-t </code>保持文件原有时间；<code>-g </code>保持文件原有用户组；<code>-o</code> 保持文件原有属主；<code>-D</code> 相当于块设备文件；</li>
